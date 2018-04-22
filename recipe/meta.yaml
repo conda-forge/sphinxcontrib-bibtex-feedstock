@@ -1,7 +1,7 @@
 {% set name = "sphinxcontrib-bibtex" %}
-{% set version = "0.3.6" %}
+{% set version = "0.4.0" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "ec4ec071d8c81d2165c55736bfd917352ef59247d2098339fed9e0aecc1cd4d5" %}
+{% set hash_value = "cb9fb4526642fc080204fccd5cd8f41e9e95387278e17b1d6969b1e27c2d3e0c" %}
 
 package:
   name: '{{ name|lower }}'
@@ -22,8 +22,7 @@ requirements:
     - setuptools
   run:
     - python
-    - latexcodec >=0.3.0
-    - pybtex >=0.17
+    - pybtex >=0.20
     - pybtex-docutils >=0.2.0
     - six >=1.4.1
     - sphinx >=1.0
