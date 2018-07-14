@@ -14,14 +14,15 @@ This extension allows BibTeX citations to be inserted into documentation generat
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/sphinxcontrib-bibtex-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/sphinxcontrib-bibtex-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/sphinxcontrib-bibtex-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/sphinxcontrib-bibtex-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/sphinxcontrib-bibtex-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/sphinxcontrib-bibtex-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/sphinxcontrib-bibtex-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/sphinxcontrib-bibtex-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sphinxcontrib-bibtex/badges/version.svg)](https://anaconda.org/conda-forge/sphinxcontrib-bibtex)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sphinxcontrib-bibtex/badges/downloads.svg)](https://anaconda.org/conda-forge/sphinxcontrib-bibtex)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sphinxcontrib--bibtex-green.svg)](https://anaconda.org/conda-forge/sphinxcontrib-bibtex) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sphinxcontrib-bibtex.svg)](https://anaconda.org/conda-forge/sphinxcontrib-bibtex) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sphinxcontrib-bibtex.svg)](https://anaconda.org/conda-forge/sphinxcontrib-bibtex) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sphinxcontrib-bibtex.svg)](https://anaconda.org/conda-forge/sphinxcontrib-bibtex) |
 
 Installing sphinxcontrib-bibtex
 ===============================
