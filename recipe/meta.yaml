@@ -1,7 +1,7 @@
 {% set name = "sphinxcontrib-bibtex" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "cb9fb4526642fc080204fccd5cd8f41e9e95387278e17b1d6969b1e27c2d3e0c" %}
+{% set hash_value = "595b8d73fcb3c57f5b3cb4f377b9afd33a8b0e485fd4fbf3f3342627f122a04f" %}
 
 package:
   name: '{{ name|lower }}'
@@ -14,7 +14,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
