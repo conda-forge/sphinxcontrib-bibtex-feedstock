@@ -1,7 +1,7 @@
 {% set name = "sphinxcontrib-bibtex" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "595b8d73fcb3c57f5b3cb4f377b9afd33a8b0e485fd4fbf3f3342627f122a04f" %}
+{% set hash_value = "169afb3a3485775e5473934a0fdff1780e8bdcdd44db7ed286044a074331c729" %}
 
 package:
   name: '{{ name|lower }}'
