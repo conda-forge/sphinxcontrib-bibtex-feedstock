@@ -3,7 +3,7 @@ About sphinxcontrib-bibtex
 
 Home: https://github.com/mcmtroffaes/sphinxcontrib-bibtex
 
-Package license: BSD 2-Clause
+Package license: BSD-2-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinxcontrib-bibtex-feedstock/blob/master/LICENSE.txt)
 
