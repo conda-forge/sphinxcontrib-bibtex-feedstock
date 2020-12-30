@@ -1,5 +1,5 @@
 {% set name = "sphinxcontrib-bibtex" %}
-{% set version = "2.1.1" %}
+{% set version = "2.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 33269a07f6bfa29c43eef81e3db2ab87aa0ee94c223957740f5f0889d50314aa
+  sha256: d98f2e64378de87ac994556fca40e1a96ccda5da7dd119476d6bdc2b5eb55c17
 
 build:
   noarch: python
