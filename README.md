@@ -42,6 +42,7 @@ Installing `sphinxcontrib-bibtex` from the `conda-forge` channel can be achieved
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `sphinxcontrib-bibtex` can be installed with:
