@@ -21,14 +21,14 @@ requirements:
     - python >=3.6
     - setuptools
     - docutils >=0.8
-    - pybtex >=0.20
+    - pybtex >=0.24
     - pybtex-docutils >=1
     - sphinx >=2.1
     - dataclasses  # can be removed when cf drops py3.6 support
   run:
     - python >=3.6
     - docutils >=0.8
-    - pybtex >=0.20
+    - pybtex >=0.24
     - pybtex-docutils >=1
     - sphinx >=2.1
     - dataclasses  # can be removed when cf drops py3.6 support
