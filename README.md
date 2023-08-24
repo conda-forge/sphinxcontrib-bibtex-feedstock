@@ -1,11 +1,11 @@
-About sphinxcontrib-bibtex
-==========================
+About sphinxcontrib-bibtex-feedstock
+====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinxcontrib-bibtex-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/mcmtroffaes/sphinxcontrib-bibtex
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinxcontrib-bibtex-feedstock/blob/main/LICENSE.txt)
 
 Summary: A Sphinx extension for BibTeX style citations.
 
@@ -149,5 +149,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@conda-forge/sphinx](https://github.com/conda-forge/sphinx/)
 * [@croth1](https://github.com/croth1/)
 
