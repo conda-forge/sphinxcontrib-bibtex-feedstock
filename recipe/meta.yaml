@@ -36,9 +36,13 @@ requirements:
     - importlib_metadata >=3.6
 
 test:
+  requires:
+    - pip
   imports:
     - sphinxcontrib
     - sphinxcontrib.bibtex
+  commands:
+    - pip check
 
 about:
   home: https://github.com/mcmtroffaes/sphinxcontrib-bibtex
