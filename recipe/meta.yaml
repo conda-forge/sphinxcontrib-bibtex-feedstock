@@ -1,5 +1,5 @@
 {% set name = "sphinxcontrib-bibtex" %}
-{% set version = "2.6.2" %}
+{% set version = "2.6.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,8 +7,8 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f487af694336f28bfb7d6a17070953a7d264bec43000a2379724274f5f8d70ae
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 7c790347ef1cb0edf30de55fc324d9782d085e89c52c2b8faafa082e08e23946
 
 build:
   noarch: python
@@ -24,16 +24,14 @@ requirements:
     - pybtex >=0.24
     - pybtex-docutils >=1
     - sphinx >=3.5
-    - dataclasses  # can be removed when cf drops py3.6 support
-    - importlib_metadata >=3.6
+    - importlib-metadata >=3.6
   run:
     - python >=3.7
     - docutils >=0.8,!=0.18.*,!=0.19.*
     - pybtex >=0.24
     - pybtex-docutils >=1.0.0
     - sphinx >=3.5
-    - dataclasses  # can be removed when cf drops py3.6 support
-    - importlib_metadata >=3.6
+    - importlib-metadata >=3.6
 
 test:
   requires:
