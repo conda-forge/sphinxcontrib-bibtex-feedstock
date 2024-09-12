@@ -24,16 +24,14 @@ requirements:
     - pybtex >=0.24
     - pybtex-docutils >=1
     - sphinx >=3.5
-    - dataclasses  # can be removed when cf drops py3.6 support
-    - importlib_metadata >=3.6
+    - importlib-metadata >=3.6
   run:
     - python >=3.7
     - docutils >=0.8,!=0.18.*,!=0.19.*
     - pybtex >=0.24
     - pybtex-docutils >=1.0.0
     - sphinx >=3.5
-    - dataclasses  # can be removed when cf drops py3.6 support
-    - importlib_metadata >=3.6
+    - importlib-metadata >=3.6
 
 test:
   requires:
