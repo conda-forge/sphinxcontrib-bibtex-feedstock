@@ -7,18 +7,18 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: 7c790347ef1cb0edf30de55fc324d9782d085e89c52c2b8faafa082e08e23946
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python {{ python_min }}
     - setuptools
     - docutils >=0.8,!=0.18.*,!=0.19.*
     - pybtex >=0.24
@@ -26,7 +26,7 @@ requirements:
     - sphinx >=3.5
     - importlib-metadata >=3.6
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - docutils >=0.8,!=0.18.*,!=0.19.*
     - pybtex >=0.24
     - pybtex-docutils >=1.0.0
@@ -36,6 +36,7 @@ requirements:
 test:
   requires:
     - pip
+    - python {{ python_min }}
   imports:
     - sphinxcontrib
     - sphinxcontrib.bibtex
