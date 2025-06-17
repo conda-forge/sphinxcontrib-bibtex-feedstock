@@ -1,5 +1,5 @@
 {% set name = "sphinxcontrib-bibtex" %}
-{% set version = "2.6.3" %}
+{% set version = "2.6.4" %}
 
 package:
   name: {{ name|lower }}
@@ -8,11 +8,11 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 7c790347ef1cb0edf30de55fc324d9782d085e89c52c2b8faafa082e08e23946
+  sha256: aad018b730d324201f09777f6c25c4a2ff7ac1d5e66af187f21fc21840768760
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
@@ -26,6 +26,7 @@ requirements:
     - sphinx >=3.5
     - importlib-metadata >=3.6
   run:
+    - setuptools
     - python >={{ python_min }}
     - docutils >=0.8,!=0.18.*,!=0.19.*
     - pybtex >=0.24
